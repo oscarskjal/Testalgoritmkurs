@@ -1,4 +1,11 @@
-package PACKAGE_NAME;
+public class Bike extends Vehicle{
 
-public class Bike {
+    public Bike(String name) {
+        super(name);
+
+
+
+
+    }
+
 }
