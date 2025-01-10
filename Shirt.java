@@ -26,4 +26,5 @@ public class Shirt extends Clothing {
     public void setColor(String color) {
         this.color = color;
     }
+
 }

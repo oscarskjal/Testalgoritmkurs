@@ -9,6 +9,10 @@ public class Car extends Vehicle {
         super(name);
            }
 
+    @Override
+    public  String soundWarning() {
+        return "brum-brum";
+    }
 
     public String getName() {
         return name;
@@ -18,6 +22,7 @@ public class Car extends Vehicle {
     public void setName(String name) {
         this.name = name;
     }
+
 }
 
 

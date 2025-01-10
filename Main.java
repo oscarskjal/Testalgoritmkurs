@@ -8,9 +8,11 @@ public class Main {
 
        // System.out.println(bike.name);
 
-        Shirt shirt = new Shirt("Oscar", "Grön");
+        Clothing shirt = new Shirt("Oscar", "Grön");
+        Car car = new Car("Fiat");
 
-        System.out.println("Personen heter" + shirt + "och skjortans ser ut att vara" + shirt.getColor());
+        System.out.println(shirt);
+        System.out.println(car.soundWarning());
     }
 
 }
